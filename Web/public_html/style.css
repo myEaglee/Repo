@@ -1,0 +1,71 @@
+*{margin: 0;
+  padding: 0;
+  font-family: lato,arial;
+  box-sizing: border-box;
+}
+
+.wrapper
+{
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
+.header
+{
+    width:100%;
+    margin: 0 auto 0 auto;
+    display: block;
+
+}
+.logo
+{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+.nav
+{
+    width: 100%;
+    background-color: #A6B828;
+}
+.menu
+{
+    display: inline-block;
+    width: 33.3333333%;
+    padding: 15px 30px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+a.menu:hover
+{
+    background-color: #556B2F;
+}
+.active
+{
+    background-color: #556B2F;
+}
+.widok
+{
+    max-width: 100%;
+}
+
+.article
+{
+    float: left;
+    max-width: 60%;
+    margin: 2% 2% 0 0;
+    box-sizing: border-box;
+}
+.social
+{
+   
+    max-width: 40%;
+    text-align: center;
+    float: right;
+    margin: 3%  8% 0 auto;
+   
+}
+
+
