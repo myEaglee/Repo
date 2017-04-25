@@ -4,7 +4,6 @@ body
     color: #000;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    
 }
 
 .wrapper
@@ -44,42 +43,9 @@ body
     text-align: justify;
     padding-top: 10px;
 }
-.mapa
-{
-    width: 20%;
-    padding:10px 0px 0 10px;
-    float: left;
-    
-    
-}
-
-.view p
-{
-    float: left;
-}
-
-.hours ol li
-{
-    list-style-type: none;
-    text-decoration: none;
-    float: right;
-    text-align: center;
-    width: 50%;
-    display: block;
-}
-
-.mapa ol li
-{
-    width:40%;
-    float: right;
-    text-decoration: none;
-    
-}
 
 .footer
 {
-    width: 100%;
-    float: left;
     color: #fff;
     text-align: center;
     background-color: #CCCC99;
@@ -96,7 +62,7 @@ body
     z-index: 100;
 }
 
-.nav ol
+ol
 {
     width: 100%;
     padding: 0;
@@ -108,14 +74,14 @@ body
     display: inline-block;
 }
 
-.nav ol a
+ol a
 {
     color: #ffffff;
     text-decoration: none;
     display: block;
 }
 
-.nav ol > li
+ol > li
 {
     float: left;
     width: 20%;
@@ -124,17 +90,17 @@ body
 }
 
 
-.nav ol > li:hover
+ol > li:hover
 {
     background-color: #CCCC99;
 }
 
-.nav ol > li:hover > a
+ol > li:hover > a
 {
     color: #451717;
 }
 
-.nav ol > li > ul
+ol > li > ul
 {
     list-style-type: none;
     padding: 0;
@@ -143,12 +109,12 @@ body
     display: none;
 }
 
-.nav ol > li:hover > ul
+ol > li:hover > ul
 {
     display: block;
 }
 
-.nav ol > li > ul > li
+ol > li > ul > li
 {
     background-color:#CCCC99;
     position: relative;
@@ -156,12 +122,12 @@ body
     border-top: 1px dashed #751b1b;
 }
 
-.nav ol > li > ul > li:hover
+ol > li > ul > li:hover
 {
     background-color: #A6B828;
 }
 
-.nav ol > li > ul > li:hover > a
+ol > li > ul > li:hover > a
 {
     color: #451717;
 }
